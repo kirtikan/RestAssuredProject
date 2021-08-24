@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3846" started-at="2020-09-24T17:34:51 IST" finished-at="2020-09-24T17:34:55 IST">
+  <suite name="Default suite" duration-ms="6643" started-at="2021-07-14T14:13:13 IST" finished-at="2021-07-14T14:13:20 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3846" started-at="2020-09-24T17:34:51 IST" finished-at="2020-09-24T17:34:55 IST">
-      <class name="com.tests.DeleteTest">
-        <test-method status="PASS" signature="test_001()[pri:0, instance:com.tests.DeleteTest@3b084709]" name="test_001" duration-ms="3785" started-at="2020-09-24T17:34:51 IST" finished-at="2020-09-24T17:34:55 IST">
+    <test name="Default test" duration-ms="6643" started-at="2021-07-14T14:13:13 IST" finished-at="2021-07-14T14:13:20 IST">
+      <class name="com.tests.GetTest">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:com.tests.GetTest@3b084709]" name="test_01" duration-ms="6373" started-at="2021-07-14T14:13:14 IST" finished-at="2021-07-14T14:13:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_001 -->
-      </class> <!-- com.tests.DeleteTest -->
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:com.tests.GetTest@3b084709]" name="test_02" duration-ms="185" started-at="2021-07-14T14:13:20 IST" finished-at="2021-07-14T14:13:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+      </class> <!-- com.tests.GetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

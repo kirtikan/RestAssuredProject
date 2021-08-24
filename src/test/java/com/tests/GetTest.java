@@ -24,7 +24,7 @@ public class GetTest {
 	@Test
 	public void test_02() {
 		given()
-		.when()
+		.when().log().all()
 		.get("https://reqres.in/api/users?page=2")
 		.then()
 		.statusCode(200).log().all();
